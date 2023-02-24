@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formulario</title>
+</head>
+<body>
+    <form method="post" action="">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            
+            <label for="codigo">Codigo: </label>
+            <input type="number" id="codigo" placeholder="001"/>
+            <br />
+
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" />
+            <br />
+
+            <label for="senha">Senha: </label>
+            <input type="password" id="senha" />
+            <br />
+
+            <label>Sexo: </label>
+            <input type="radio" id="M" />
+            <label for="M">Maculino</label>
+            <input type="radio" id="F" />
+            <label for="F">Feminino</label>
+            <br />
+
+            <label for="idade">Idade: </label>
+            <input type="number" id="idade">
+            <br />
+
+            <label>Cartao de Credito: </label>
+            <br />
+            <select multiple>
+                <option>Mastercard</option>
+                <option>Visa</option>
+                <option>American Express</option>
+            </select>
+            <br />
+
+            <fieldset><tr>
+                <td>1</td>
+                <td></td>
+            </tr>
+                <label for="cargos">Cargo: </label>
+                <select id="cargos">
+                    <option>Analista Junior</option>
+                    <option>Analista Pleno</option>
+                    <option>Analista Senior</option>
+                </select>
+                <br />
+
+                <label>Dados Pessoais</label>
+                <br>
+                <label> <input type="checkbox"> Fumante </label>
+                <br>
+                <label> <input type="checkbox"> Pratica Exercicios Fisicos </label>
+                <br>
+                <label> <input type="checkbox"> Consome bebida alcoolica </label>
+                <br />
+
+                <label for="exp">Experiencias Profissionais: </label>
+                <br>
+                <textarea id="exp" cols="50" rows="3" placeholder="Data Inicio/Data fim/Empresa/Cargo"></textarea>
+            </fieldset>
+        </fieldset>
+        <input type="reset" value="Limpar">
+        <input type="submit" value="Enviar">
+    </form>
+    
+</body>
+</html>
